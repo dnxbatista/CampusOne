@@ -26,7 +26,7 @@ namespace CampusOneAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<User?>> GetTaskById(string id)
+        public async Task<ActionResult<Models.Entities.Task?>> GetTaskById(string id)
         {
             var filter = Builders<Models.Entities.Task>.Filter.Eq("Id", id);
             var task = await _tasks.Find(filter).FirstOrDefaultAsync();
@@ -50,7 +50,7 @@ namespace CampusOneAPI.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateUser([FromBody] Models.Entities.Task task)
+        public async Task<IActionResult> UpdateTask([FromBody] Models.Entities.Task task)
         {
             if (task == null) return BadRequest("Task data is null");
             var filter = Builders<Models.Entities.Task>.Filter.Eq("Id", task.Id);
@@ -63,7 +63,7 @@ namespace CampusOneAPI.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteUser(string id)
+        public async Task<IActionResult> DeleteTask(string id)
         {
             var filter = Builders<Models.Entities.Task>.Filter.Eq("Id", id);
             var result = await _tasks.DeleteOneAsync(filter);

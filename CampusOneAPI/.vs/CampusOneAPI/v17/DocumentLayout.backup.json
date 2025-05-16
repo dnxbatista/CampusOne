@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|c:\\users\\danie\\onedrive\\documentos\\github\\campusone\\campusoneapi\\campusoneapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|solutionrelative:campusoneapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|c:\\users\\danie\\onedrive\\documentos\\github\\campusone\\campusoneapi\\campusoneapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|solutionrelative:campusoneapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|c:\\users\\danie\\onedrive\\documentos\\github\\campusone\\campusoneapi\\campusoneapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|solutionrelative:campusoneapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|c:\\users\\danie\\onedrive\\documentos\\github\\campusone\\campusoneapi\\campusoneapi\\models\\edittaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|solutionrelative:campusoneapi\\models\\edittaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|c:\\users\\danie\\onedrive\\documentos\\github\\campusone\\campusoneapi\\campusoneapi\\models\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|solutionrelative:campusoneapi\\models\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|c:\\users\\danie\\onedrive\\documentos\\github\\campusone\\campusoneapi\\campusoneapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|solutionrelative:campusoneapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|c:\\users\\danie\\onedrive\\documentos\\github\\campusone\\campusoneapi\\campusoneapi\\models\\edittaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE25B731-9854-4B14-BB9A-D9B942BF83A0}|CampusOneAPI\\CampusOneAPI.csproj|solutionrelative:campusoneapi\\models\\edittaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CampusOneAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Program.cs*",
+              "RelativeToolTip": "CampusOneAPI\\Program.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T19:23:10.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EditTaskDto.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Models\\EditTaskDto.cs",
               "RelativeDocumentMoniker": "CampusOneAPI\\Models\\EditTaskDto.cs",
@@ -47,28 +56,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Models\\Entities\\Task.cs",
               "RelativeDocumentMoniker": "CampusOneAPI\\Models\\Entities\\Task.cs",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Models\\Entities\\Task.cs",
               "RelativeToolTip": "CampusOneAPI\\Models\\Entities\\Task.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T15:29:20.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "CampusOneAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "CampusOneAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:33:41.3Z",
               "EditorCaption": ""
             },
             {
@@ -79,22 +75,9 @@
               "RelativeDocumentMoniker": "CampusOneAPI\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Controllers\\TaskController.cs",
               "RelativeToolTip": "CampusOneAPI\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwD4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T15:10:18.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Models\\LoginDto.cs",
-              "RelativeDocumentMoniker": "CampusOneAPI\\Models\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\CampusOne\\CampusOneAPI\\CampusOneAPI\\Models\\LoginDto.cs",
-              "RelativeToolTip": "CampusOneAPI\\Models\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T03:31:51.701Z",
               "EditorCaption": ""
             }
           ]

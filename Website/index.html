@@ -172,6 +172,48 @@
                 document.querySelector(button.dataset.target).classList.add('active');
             });
         });
+
+        // Login usando /api/User/verify
+        document.querySelector('#login-form form').onsubmit = async function(e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            try {
+                const res = await fetch('https://localhost:7031/api/User/verify', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, password, number: "" })
+                });
+                if (!res.ok) throw new Error('Login failed');
+                const user = await res.json();
+                localStorage.setItem('campusone_user', JSON.stringify(user));
+                window.location.href = 'home.html';
+            } catch (err) {
+                alert('Login failed');
+            }
+        };
+
+        // Registro: após registrar, apenas troca para a aba de login
+        document.querySelector('#register-form form').onsubmit = async function(e) {
+            e.preventDefault();
+            const name = document.getElementById('reg-name').value;
+            const email = document.getElementById('reg-email').value;
+            const phone = document.getElementById('reg-phone').value;
+            const password = document.getElementById('reg-password').value;
+            try {
+                const res = await fetch('https://localhost:7031/api/User', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, email, password, number: phone })
+                });
+                if (!res.ok) throw new Error('Registration failed');
+                alert('Registration successful! Please log in.');
+                // Troca para a aba de login
+                document.querySelector('.tab-btn[data-target="#login-form"]').click();
+            } catch (err) {
+                alert('Registration failed');
+            }
+        };
     </script>
 </body>
 </html>
