@@ -1,3 +1,5 @@
+This project is not done.
+
 # CampusOne
 CampusOne is a modern web app for schools and universities. Users can register as students or teachers, log in, and manage tasks. Only teachers can add new tasks; both roles can view and delete them. The app uses a dark theme, integrates with a REST API and MongoDB, and features a responsive interface.
 
